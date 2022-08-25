@@ -81,7 +81,11 @@
                     subject = subject ? [subject] : [];
                 }
 
-                _require.call(this, subject.map(this.getExtendedViewName.bind(this)), callback, errorCallback);
+                if (!this._extending) {
+                    subject = subject.map(this.getExtendedViewName.bind(this));
+                }
+
+                _require.call(this, subject, callback, errorCallback);
             };
 
             const _define = loader.define;
@@ -94,7 +98,12 @@
                     dependencies = dependencies.map(this.getExtendedViewName.bind(this));
                 }
 
+                // Espo <= 7.1 fix (as `define` calls extended `require` unlike `define` in Espo >= 7.2)
+                this._extending = true;
+
                 _define.call(this, name, dependencies, callback);
+
+                this._extending = false;
             };
 
             loader.extend = function (subject, dependency, callback) {
