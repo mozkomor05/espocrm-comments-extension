@@ -1,0 +1,7 @@
+{
+    "controller": "controllers/record",
+    "collection": "comments:collections/comment",
+    "recordViews": {
+        "editQuick": "comments:views/comments/record/edit-small"
+    }
+}

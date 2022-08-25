@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "comments": "Komentáře"
+    },
+    "tooltips": {
+        "comments": "Zda má mít entita komentáře"
+    }
+}

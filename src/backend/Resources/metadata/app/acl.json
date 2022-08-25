@@ -1,0 +1,12 @@
+{
+    "mandatory": {
+        "scopeLevel": {
+            "Comment": {
+                "read": "own",
+                "edit": "own",
+                "delete": "own",
+                "create": "yes"
+            }
+        }
+    }
+}

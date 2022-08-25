@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "comments": "Comments"
+    },
+    "tooltips": {
+        "comments": "Whether entity should have comments"
+    }
+}

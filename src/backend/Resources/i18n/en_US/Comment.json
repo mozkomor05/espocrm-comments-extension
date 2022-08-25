@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "post": "Message",
+        "thread": "Thread",
+        "children": "Replies",
+        "parent": "Parent record",
+        "commentReply": "Reply of",
+        "attachments": "Attachments"
+    },
+    "labels": {
+        "Reply": "Reply"
+    }
+}

@@ -1,0 +1,29 @@
+.comment-children-container {
+    border-left: 1px solid #d9d9d9;
+}
+
+.comment-textarea-container textarea {
+    resize: vertical;
+    min-height: 40px;
+}
+
+.comment-footer {
+    padding: 10px 0;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.comment-load-replies-container {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.comment-load-replies-link {
+    vertical-align: middle;
+}
+
+.comment-load-replies-link .fas {
+    font-size: 11px;
+    color: #999;
+}

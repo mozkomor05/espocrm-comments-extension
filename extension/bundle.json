@@ -1,0 +1,12 @@
+{
+    "js": {
+        "client/modules/comments/src/js/extender.min.js": [
+            "client/modules/comments/src/js/extender.js"
+        ]
+    },
+    "css": {
+        "client/modules/comments/css/comments/comments.min.css": [
+            "client/modules/comments/css/comments/comments.css"
+        ]
+    }
+}
