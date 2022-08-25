@@ -1,0 +1,26 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "createdBy"
+                },
+                {
+                    "name": "createdAt"
+                }
+            ],
+            [
+                {
+                    "name": "post",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "attachments",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

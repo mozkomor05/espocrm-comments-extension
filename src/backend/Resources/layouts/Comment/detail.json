@@ -1,0 +1,32 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "parent"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "thread"
+                },
+                {
+                    "name": "commentReply"
+                }
+            ],
+            [
+                {
+                    "name": "post",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "attachments"
+                },
+                false
+            ]
+        ]
+    }
+]

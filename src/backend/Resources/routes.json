@@ -1,0 +1,12 @@
+[
+    {
+        "route": "/:controller/:id/comments",
+        "method": "get",
+        "params": {
+            "controller": "Comment",
+            "action": "listForEntity",
+            "id": ":id",
+            "scope": ":controller"
+        }
+    }
+]

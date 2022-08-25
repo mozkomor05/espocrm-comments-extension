@@ -1,0 +1,3 @@
+{
+    "accessCheckerClassName": "Espo\\Modules\\Comments\\Classes\\Acl\\Comment\\AccessChecker"
+}

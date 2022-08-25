@@ -1,0 +1,14 @@
+{
+    "scriptList": [
+        "__APPEND__",
+        "client/modules/comments/src/js/extender.min.js"
+    ],
+    "developerModeScriptList": [
+        "__APPEND__",
+        "client/modules/comments/src/js/extender.js"
+    ],
+    "cssList": [
+        "__APPEND__",
+        "client/modules/comments/css/comments/comments.css"
+    ]
+}

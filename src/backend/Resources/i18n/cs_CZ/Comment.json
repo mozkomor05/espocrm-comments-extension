@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "post": "Zpráva",
+        "thread": "Vlákno",
+        "children": "Odpovědi",
+        "parent": "Nadřazený záznam",
+        "commentReply": "Odpovídá na",
+        "attachments": "Přílohy"
+    },
+    "labels": {
+        "Reply": "Odpovědět"
+    }
+}
