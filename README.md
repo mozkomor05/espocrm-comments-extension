@@ -39,8 +39,7 @@ Then check `Comments` checkbox.
 ## Requires
 
 - EspoCRM >= 7.0.0
-- PHP >= 8.0
-- Depends on [Autocrm](https://gitlab.apertia.cz/autocrm/modules/autocrm) module.
+- PHP >= 7.3
 
 ## Installation
 
