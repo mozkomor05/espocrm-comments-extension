@@ -83,6 +83,8 @@
 
                 if (!this._extending) {
                     subject = subject.map(this.getExtendedViewName.bind(this));
+                } else {
+                    this._extending = false;
                 }
 
                 _require.call(this, subject, callback, errorCallback);
@@ -102,8 +104,6 @@
                 this._extending = true;
 
                 _define.call(this, name, dependencies, callback);
-
-                this._extending = false;
             };
 
             loader.extend = function (subject, dependency, callback) {
