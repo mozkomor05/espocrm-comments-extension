@@ -1,6 +1,6 @@
 {
     "name": "comments",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Comments extension make it possible to add collapsable comment threads to any entity.",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
